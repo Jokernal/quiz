@@ -107,6 +107,7 @@ scoreEl.addEventListener("click", function(){
     var name = inpKey.value;
     console.log(name);
     console.log(score);
+    
     if(name)
     {
         localStorage.setItem("name", name);
