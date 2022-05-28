@@ -104,12 +104,12 @@ var score = 0;
 
 //}
 scoreEl.addEventListener("click", function(){
-    var key = inpKey.value;
+    var name = inpKey.value;
     console.log(name);
     console.log(score);
     if(name)
     {
-        localStorage.setItem("key", key);
+        localStorage.setItem("name", name);
         console.log(localStorage);
         location.reload();
     };
